@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "800526318252",
+    "project_id": "tempolend-6fa52",
+    "storage_bucket": "tempolend-6fa52.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:800526318252:android:ed92c71da135555711bd09",
+        "android_client_info": {
+          "package_name": "com.example.tempolend"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDWyajBKB7XqtmIoF6n73we6LvSVUTGQSM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

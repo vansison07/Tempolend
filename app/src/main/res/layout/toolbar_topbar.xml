@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.Toolbar
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/toolbar"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="4dp"
+    android:background="#1E1E1E"
+    android:theme="?attr/actionBarTheme"
+    app:layout_scrollFlags="scroll|enterAlways">
+
+
+    <!-- Left ImageView -->
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginLeft="18dp"
+        >
+
+    <ImageView
+        android:id="@+id/leftImageView"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="5dp"
+        android:src="@drawable/tempolend_logo"
+        android:contentDescription="Left Icon"
+        android:layout_gravity="start"/>
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Tempolend"
+            android:minWidth="50dp"
+            android:fontFamily="@font/knewaver"
+            android:textColor="#FFD700"
+            android:textSize="10sp"
+            />
+</LinearLayout>
+
+
+    <!-- Centered Search EditText -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:gravity="center_vertical">
+
+        <EditText
+            android:id="@+id/searchEditText"
+            android:layout_width="240dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="17dp"
+            android:padding="10dp"
+            android:layout_marginRight="10dp"
+            android:drawableRight="@drawable/search_logo"
+            android:background="@drawable/white_box_curve"
+            android:inputType="text" />
+    </LinearLayout>
+
+<!--    &lt;!&ndash; Right ImageViews &ndash;&gt;-->
+<!--    <ImageView-->
+<!--        android:id="@+id/rightImageView1"-->
+<!--        android:layout_width="35dp"-->
+<!--        android:layout_height="35dp"-->
+<!--        android:src="@drawable/notification"-->
+<!--        android:layout_marginRight="0.14in"-->
+<!--        android:contentDescription="Right Icon 1"-->
+<!--        android:layout_gravity="end"/>-->
+
+
+</androidx.appcompat.widget.Toolbar>
